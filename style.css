@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+}
+
+body{
+    height: 100%;
+}
+
+
+
+/* Header */
+.menu-btn{
+    color: #424144;
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
+}
+
+.navbar{
+    padding: 20px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: #f3f4f6;
+    box-shadow: 0 0 14px rgba(0, 0, 0, 0.3);
+}
+
+.navbar .logo h1{
+    color: #424144;
+    
+    
+}
+
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+    font-family: 'Trajan Pro', sans-serif;
+}
+
+.navbar .menu li a{
+    display: block;
+    margin-left: 20px;
+    color: #424144;
+    border-bottom: 4px solid transparent;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.navbar .menu li .active{
+    border-bottom: 4px solid #f63e4e;
+}
+
+.navbar .menu li a i{
+    color: #f63e4e;
+}
+
+
+.s2{
+    padding: 20px 5%;
+    
+}
+
+.s2 .pic1{
+    height: 420px;
+    width: 32%;
+    margin-left: 2%;
+    
+}
+
+.s2 .pic2{
+    height: 420px;
+    width: 32%;
+}
+
+.s2 .pic3{
+    height: 420px;
+    width: 32%;
+}
+
+.content{
+    background-image: url(photo1709986943.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #424144;
+    height: 100vh;
+    margin-left: 6%;
+    margin-right: 6%;
+    
+}
+
+.content h1{
+    font-size: 40px;
+}
+
+.content p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.content button{
+    margin-top: 30px;
+    padding: 15px 30px;
+    border: none;
+    background: #f63e4e;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pheading{
+    text-align: center;
+    margin: 50px 0;
+    color: #424144;
+}
+
+
+
+/* Product Display */
+
+.sec{
+    padding: 10px 5%;
+}
+
+.products{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.products .card{
+    width: 310px;
+    background: #f5f5f5;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.products .card img{
+    height: 250px;
+    width: 100%;
+}
+
+.products .card .desc{
+    padding: 5px 20px;
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+.products .card .title{
+    font-weight: 900;
+    font-size: 20px;
+    color: #424144;
+    padding: 0 20px;
+    
+}
+
+.products .card .box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.products .card .box .price{
+    color: #f63e4e;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.products .card .box .btn{
+    font-size: 13px;
+    color: #f63e4e;
+    padding: 10px 18px;
+    font-weight: 900;
+    border: 1px solid #f63e4e;
+    border-radius: 20px;
+}
+
+.products .card .box .btn:hover{
+    cursor: pointer;
+    background-color: #f63e4e;
+    color: white;
+    
+}
+
+/* Footer */
+
+footer{
+    background-color: #f3f4f6;
+    height: 10vh;
+}
+
+footer p{
+    text-align: center;
+    line-height: 10vh;
+}
+
+footer p a{
+    text-decoration: none;
+    color: #f63e4e;
+    font-weight: bold;
+    
+}
+
+
+
+/* Registration Page */
+
+.column-1{
+   
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+    border: 2px solid red;
+    border-color: coral;
+    padding-bottom: 20px;
+    background-image: url(17.jpg);
+    background-size: cover;
+}
+
+.rf h1{
+    direction: right;
+}
+
+
+
+.column-1 h1{
+    text-align: left;
+}
+
+
+.star{
+    color: orangered;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.material-icons{
+    position: absolute;
+    color: #001E6C;
+    margin-left: 400px;
+}
+
+
+
+
+.label-text{
+   font-size: 14px;
+    font-weight: 600;
+    margin-left: 435px;
+    
+    
+}
+
+.if-any{
+    font-size: 12px;
+}
+
+.all-input{
+    float: right;
+    margin-right: 420px;
+    border-radius: 10px;
+    height: 25px;
+}
+
+.hero-btn{
+    width: 100px;
+    height: 40px;
+    margin-left: 560px;
+    font-family: 'Merriweather', serif;
+    font-size: 14px;
+    border: 2px solid #f44336;
+    border-radius: 10px;
+    background: transparent;
+    transition: 0.2s;
+    
+    
+}
+
+.hero-btn:hover{
+    background-color: #f44336;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    
+}
+
+.footer{
+    text-align: center;
+    font-size: 12px;
+    color: grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
